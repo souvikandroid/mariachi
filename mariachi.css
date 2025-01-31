@@ -1,0 +1,495 @@
+/* universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.com-gap{
+    padding: 100px 0;
+}
+/* padding=top right bottom left
+padding=top&bottom right&left*/
+
+.btn{
+    display: inline-block;
+    padding: 27px 42px;
+    background-color: #ffd7ad;
+    border: 1px solid #333;
+    color: #4a1831;
+    font-size: 24px;
+    border-radius: 40px;
+    margin-right: 35px;
+}
+
+.btn:hover {
+    background-color: #4a1831;
+    color: #ffd7ad;
+    transition: .3s ease;
+}
+/* ---------universal--------- */
+
+
+/* --------header------------- */
+.header-section {
+    padding: 0 120px;
+    background-color: #4a1831;
+}
+.active a{
+    color: blue !important;
+}
+.active a:hover{
+    color: rgb(68, 24, 110) !important;
+}
+.header-section-child {
+    padding: 33px 0;
+    text-align: center;   
+}
+
+.nav-items {
+    display: flex;
+    /* list-style: none; */
+    font-size: 20px;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items li {
+    margin: 0 40px;
+}
+
+
+.nav-items li a:hover {
+    color: blue;
+}
+ /* -------------navbar ends----------- */
+/* -----------------banner section------------------- */
+.logo{
+    width: 10%;
+    padding-bottom: 48px;
+}
+
+.banner-section{
+    background-image: url(./image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: auto;
+    align-items: center;
+    padding-left: 40px;
+}
+.banner-section p{
+    width: 50%;
+    color: #ffd7ad;
+    padding: 20px;
+    font-size: 20px;
+}
+.banner-section h1{
+    color: #ffd7ad;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+/* --------------------banner section ends----------------- */
+
+/* --------------menu section -------------------------- */
+.menu-section{
+    background-color: #ffd7ad;
+    text-align: center;
+}
+.menu-section-child{
+    /* padding-top: 70px; */
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.menu-section-child h1{
+    font-size: 50px;
+    color: #4a1831;
+    padding: 10px;
+}
+
+.menu-section-child p{
+    color: #4a1831;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 45px;
+    color: #ffd7ad;
+    border: 1px solid  #ffd7ad;
+    background-color: #4a1831;
+    font-size: 30px;
+    text-decoration: none;
+    /* margin: 10px 110px; */
+}
+
+.btn1:hover{
+    background-color: #ffd7ad;
+    color:#4a1831;
+    transition: 1s;
+}
+
+/* --------------menu section ends-------------------------- */
+
+/* --------------------thrd section------------------- */
+.thrd-baner-section{
+    background-image: url(./image/Rectángulo\ 1.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 170px 0;
+    align-items: center;
+}
+/* --------------------thrd section ends------------------- */
+
+/* -----------------about section ----------- */
+.about-section{
+    background-color: #ffd7ad;
+
+}
+.about-section-child{
+    display: flex;
+}
+.about-section-child .Right h2{
+    padding: 80px 20px; 
+    font-size: 50px;
+    color: #4a1831;
+}
+.about-section-child .Right p{
+    padding: 20px 0;
+    font-size: 25px;
+}
+.about-section-child .left{
+    margin: 40px;
+    padding-top: 50px;
+}
+.about-section-child .left img{
+    width: 100%;
+}
+.btn2{
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 45px;
+    color: #ffd7ad;
+    border: 1px solid  #ffd7ad;
+    background-color: #4a1831;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 60px 0;
+
+}
+.btn2:hover{
+    background-color: #ffd7ad;
+    color:#4a1831;
+    transition: 1s;
+}
+/* -----------------about section end----------- */
+
+/* -------------------tacos section------------------------ */
+.tacos-section{
+    background-color: #ffd7ad;
+}
+.tacos-section-child figure img{
+    width: 120%;
+}
+.tacos-section-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-section{
+    position: absolute;
+    /* transform: translate(-45px 55px); */
+}
+
+.left-section h2{
+    color: #e63956;
+    font-size: 200px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-section h3{
+    color: #55112e;
+    font-size: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left-section h4{
+    color: #6cc5ac;
+    font-size: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right-section figure img{
+    /* width: 100%; */
+}
+/* ------------------tacos ends---------------------- */
+
+/* --------------offer section-------------------- */
+.offer-section{
+    background-color: #4a1831;
+}
+.offer-section-child{
+    display: flex;
+}
+.left{
+    padding-top: 200px;
+    justify-content: space-between;
+}
+.left h2{
+    color: #e63956;
+    font-size: 70px;
+    padding: 30px 0;
+}
+.left p{
+    color: #fff;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.Right img{
+    padding: 90px 0;
+    
+}
+.btn3{
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 45px;
+    color: #4a1831;
+    border: 1px solid  #ffd7ad;
+    background-color: #ffd7ad;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 60px 0;
+}
+.btn3:hover{
+    background-color: #4a1831;
+    color: #ffd7ad;
+    transition: 1s;
+}
+/* ----------------------------mariachi section-------------- */
+.mariachi-section{
+    background-blend-mode: darken;
+    background-image: url(./image/baner.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 715px;
+    /* width: 100%; */
+    background-color: rgba(0, 0, 0, 0.475);
+    background-blend-mode: darken;
+    text-align: center; 
+}
+.mariachi-section-child{
+  
+}
+.mariachi-section-child img{
+    width: 20%;
+    height: 20%;
+}
+.mariachi-section-child p{
+    color: #ffd7ad;
+    font-size: 40px;
+}
+#p1{
+    color: #ffd7ad;
+    padding: 20px 0;
+    font-size: 70px;
+}
+/* -----------mariachi section ends--------------- */
+
+/* -------------------subscribe section----------------------- */
+.subscribe-section{
+    background-color: #ffd7ad;
+    height: auto;
+    text-align: center;
+    padding: 150px 125px;
+}
+.subscribe-section h3{
+    font-size: 75px;
+    padding-bottom: 60px;
+    color: #4a1831;
+}
+.subscribe-section p{
+    font-size: 30px;
+    padding-bottom: 67px;
+    color: #4a1831;
+}
+.search-box{
+    position: relative;
+    text-align: left;
+    padding: 0 15%;
+}
+#box{
+    position: absolute;
+    width: 60%;
+    padding: 25px;
+    border-radius: 41px;
+    font-size: 24px;
+    border: none;
+}
+
+.subscribe-section a{
+    position: absolute;
+    left: 54%;
+}
+/* -------------------subscribe section ends----------------------- */
+
+/* -----------------------footer section-------------------- */
+.footer-section{
+    background-color: #4a1831;
+    padding: 207px 0;
+}
+.footer-section-child{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first-box{
+    width: 40%;
+}
+.first-box li{
+    list-style: none;
+    padding: 10px 0;
+}
+.first-box i{
+    padding: 20px 10px;
+}
+.first-box i:hover{
+    color: blue;
+}
+
+.first-box h3{
+    color: #ffd7ad;
+    font-size: 20px;
+}
+.first-box p{
+    /* width: 50%; */
+    color: #fff;
+    padding-top: 10px;
+}
+
+.second-box h2{
+    color: #ffd7ad;
+}
+.second-box li{
+    list-style: none;
+    padding: 10px 0;
+}
+.thrd-box h2{
+    color: #ffd7ad;
+}
+.thrd-box li{
+    list-style: none;
+    padding: 10px 0;
+}
+.forth-box h2{
+    color: #ffd7ad;
+}
+.forth-box li{
+    list-style: none;
+    padding: 10px 0;
+}
+/* ----------------footer section ends------------------ */
+
+/* -------------------media screen section------------------- */
+
+@media (min-width: 320px) and (max-width: 575.98px){
+    .nav-items{
+        /* justify-content: space-between; */
+    }
+    .logo{
+        width: 30%;
+    }
+    .about-section-child{
+        flex-direction: column;
+    }
+    .offer-section-child{
+        flex-direction: column;
+    }
+    .tacos-section-child{
+        flex-direction: column;
+    }
+    .tacos-section-child figure img{
+        width: 80%;
+    }
+    .mariachi-section{
+        padding-top: 7px;
+    }
+    .right-section{
+        width: 50%;
+    }
+    .search-box{
+        /* position: relative; */
+        text-align: left;
+        padding: 10% 5%;
+    }
+    #box{
+        /* position: absolute; */
+        width: 150%;
+        padding: 35px 35px;
+        border-radius: 24px;
+        font-size: 12px;
+        border: none;
+    }
+    
+    .subscribe-section a{
+        /* position: absolute; */
+        left: 77%;
+    }
+  
+    .footer-section-child{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+/* --------------------------media section ends-------------------------- */
